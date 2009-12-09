@@ -156,7 +156,7 @@ class Planet:
 
 print "Welcome to my browser game bot"
 
-opener.open(url + 'login.php', 'uni_id=1&v=2&is_utf8=0&username=Mononofu&password=alucard&submitInput=Login')
+opener.open(url + 'login.php', 'uni_id=1&v=2&is_utf8=0&username=user&password=secret&submitInput=Login')
 empire = Empire()
 empire.update()
 print empire
